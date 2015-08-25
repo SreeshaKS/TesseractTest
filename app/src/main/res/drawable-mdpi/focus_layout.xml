@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="50dp" android:layout_height="50dp">
+    <item android:drawable="@drawable/focus_normal" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="3dip" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/focus_touch" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="3dip" />
+        </shape>
+    </item>
+</selector>
